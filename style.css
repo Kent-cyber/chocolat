@@ -4,9 +4,23 @@ body {
 }
 
 img {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw !important;
+    height: 80vh !important;
 }
 h1 {
+    text-align: center !important;
+}
+
+header {
+    margin: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+h2 {
     text-align: center;
 }
